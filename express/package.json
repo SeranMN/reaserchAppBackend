@@ -1,0 +1,32 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "description": "Oral Cancer early detecting app backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "debug": "nodemon run start"
+  },
+  "keywords": [],
+  "author": "Seran M N",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeranMN/reaserchAppBackend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SeranMN/reaserchAppBackend/issues"
+  },
+  "homepage": "https://github.com/SeranMN/reaserchAppBackend#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.4.5",
+    "nodemon": "^3.0.1",
+    "request": "^2.88.2"
+  }
+}
